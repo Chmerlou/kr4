@@ -1,0 +1,129 @@
+{
+  "title": "Дорожная карта изучения React",
+  "description": "Пошаговый план освоения библиотеки React от основ до продвинутых тем",
+  "items": [
+    {
+      "id": "1",
+      "title": "Основы JavaScript ES6+",
+      "status": "not_started",
+      "note": "",
+      "targetDate": "",
+      "description": "Изучение современных возможностей JavaScript: стрелочные функции, деструктуризация, модули, async/await",
+      "links": [
+        {
+          "title": "MDN JavaScript Guide",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Введение в React",
+      "status": "not_started",
+      "note": "",
+      "targetDate": "",
+      "description": "Понятие компонентов, JSX синтаксис, создание первого React приложения",
+      "links": [
+        {
+          "title": "Официальная документация React",
+          "url": "https://react.dev"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Компоненты и Props",
+      "status": "not_started",
+      "note": "",
+      "targetDate": "",
+      "description": "Создание функциональных и классовых компонентов, передача данных через props",
+      "links": []
+    },
+    {
+      "id": "4",
+      "title": "Состояние компонентов (useState)",
+      "status": "not_started",
+      "note": "",
+      "targetDate": "",
+      "description": "Работа с состоянием компонентов с помощью хука useState",
+      "links": []
+    },
+    {
+      "id": "5",
+      "title": "Обработка событий",
+      "status": "not_started",
+      "note": "",
+      "targetDate": "",
+      "description": "Работа с событиями в React: onClick, onChange, onSubmit и другие",
+      "links": []
+    },
+    {
+      "id": "6",
+      "title": "Условный рендеринг",
+      "status": "not_started",
+      "note": "",
+      "targetDate": "",
+      "description": "Условное отображение элементов с помощью тернарного оператора и логических операторов",
+      "links": []
+    },
+    {
+      "id": "7",
+      "title": "Списки и ключи",
+      "status": "not_started",
+      "note": "",
+      "targetDate": "",
+      "description": "Рендеринг списков элементов, использование ключей для оптимизации",
+      "links": []
+    },
+    {
+      "id": "8",
+      "title": "Формы в React",
+      "status": "not_started",
+      "note": "",
+      "targetDate": "",
+      "description": "Работа с формами: контролируемые и неконтролируемые компоненты, валидация",
+      "links": []
+    },
+    {
+      "id": "9",
+      "title": "Хуки (Hooks)",
+      "status": "not_started",
+      "note": "",
+      "targetDate": "",
+      "description": "Изучение основных хуков: useEffect, useContext, useMemo, useCallback",
+      "links": []
+    },
+    {
+      "id": "10",
+      "title": "Маршрутизация (React Router)",
+      "status": "not_started",
+      "note": "",
+      "targetDate": "",
+      "description": "Настройка маршрутизации в одностраничных приложениях с помощью React Router",
+      "links": [
+        {
+          "title": "React Router Documentation",
+          "url": "https://reactrouter.com"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "title": "Работа с API",
+      "status": "not_started",
+      "note": "",
+      "targetDate": "",
+      "description": "Выполнение HTTP запросов, работа с fetch и axios, обработка асинхронных данных",
+      "links": []
+    },
+    {
+      "id": "12",
+      "title": "Управление состоянием (Context API)",
+      "status": "not_started",
+      "note": "",
+      "targetDate": "",
+      "description": "Использование Context API для глобального управления состоянием приложения",
+      "links": []
+    }
+  ]
+}
