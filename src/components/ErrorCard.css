@@ -1,0 +1,66 @@
+.error-card {
+  max-width: 1200px;
+  margin: 1.5rem auto;
+  padding: 0 2rem;
+  animation: slideDown 0.3s ease-out;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.error-card-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 1rem 1.5rem;
+  background: linear-gradient(135deg, #fee2e2 0%, #fecaca 100%);
+  border: 1px solid #fca5a5;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+}
+
+.error-card-text {
+  flex: 1;
+}
+
+.error-card-title {
+  margin: 0 0 0.25rem 0;
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: #991b1b;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.error-card-message {
+  margin: 0;
+  font-size: 0.875rem;
+  color: #7f1d1d;
+  line-height: 1.5;
+}
+
+.error-card-close {
+  margin-left: 1rem;
+  padding: 0.25rem 0.5rem;
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+  color: #991b1b;
+  cursor: pointer;
+  line-height: 1;
+  transition: var(--transition);
+  border-radius: var(--radius-sm);
+}
+
+.error-card-close:hover {
+  background: rgba(153, 27, 27, 0.1);
+  transform: scale(1.1);
+}
